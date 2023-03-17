@@ -23,7 +23,7 @@ distlib==0.3.6
 executing==1.2.0
 fastapi==0.94.1
 fastjsonschema==2.16.3
-fastparquet==2023.0.1
+fastparquet==0.5.0
 filelock==3.9.0
 fonttools==4.39.0
 fqdn==1.5.1
