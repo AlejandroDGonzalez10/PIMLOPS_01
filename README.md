@@ -9,7 +9,7 @@
 La Empresa provee servicios de agregación de plataformas de streaming y necesita un sistema de recomendación para mejorar la experiencia del usuario. 
 
 ## Propuesta de trabajo
-El proyecto sigue un enfoque iterativo basado en el ciclo de vida de los proyectos de **Machine Learning**. El objetivo es proporcionar un **MVP** en una semana. Para ello, se plantea la siguiente propuesta de trabajo:
+El proyecto sigue un enfoque iterativo basado en el ciclo de vida de los proyectos de **Machine Learning**. El objetivo es proporcionar un **MVP** en una semana. Propuesta de trabajo:
 
 ## Arquitectura del proyecto
 Realizamos el ETL, luego el EDA analizando lo que vimos relevante, procedimos a filtrar datos para el ML para posterior Deploy con su funcionamiento de consultas, lo realizamos en fastapi con render.
@@ -46,3 +46,5 @@ Se realizo un análisis exploratorio de datos para investigar las relaciones ent
 En el archivo **Modelo.ipynb** se desarrollo el modelo de **Machine Learning**, 
 Una vez finalizado el **ETL** y el **EDA**, se debe entreno un modelo de ML para armar un sistema de recomendación de películas para usuarios. El modelo es capaz de recomendar películas a un usuario dado su ID y una película. 
 
+PD: anexo carpeta del eda por en un drive para acoplarlo al repositorio junto a los archivos parquet que tambien pesan mucho.
+APP setreamlit:
