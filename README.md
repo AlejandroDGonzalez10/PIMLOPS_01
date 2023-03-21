@@ -47,4 +47,4 @@ En el archivo **Modelo.ipynb** se desarrollo el modelo de **Machine Learning**,
 Una vez finalizado el **ETL** y el **EDA**, se debe entreno un modelo de ML para armar un sistema de recomendación de películas para usuarios. El modelo es capaz de recomendar películas a un usuario dado su ID y una película. 
 
 PD: anexo carpeta del eda por en un drive para acoplarlo al repositorio junto a los archivos parquet que tambien pesan mucho.
-APP setreamlit:
+APP setreamlit: https://alejandrodgonzalez10-apis-apist-51v3rg.streamlit.app/
