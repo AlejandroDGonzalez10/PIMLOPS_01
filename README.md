@@ -3,7 +3,7 @@
 
 ## <h1 align=center> **PROYECTO INDIVIDUAL Nº1 DE HENRY LABS** </h1>
 
-# <h1 align=center>"Sistema de recomendación de servicios de streaming" </h1>
+# <h1 align=center>"Sistema de recomendación de Plataformas de streaming" </h1>
 
 ## Contexto
 La Empresa provee servicios de agregación de plataformas de streaming y necesita un sistema de recomendación para mejorar la experiencia del usuario. 
@@ -15,8 +15,8 @@ El proyecto sigue un enfoque iterativo basado en el ciclo de vida de los proyect
 Realizamos el ETL, luego el EDA analizando lo que vimos relevante, procedimos a filtrar datos para el ML para posterior Deploy con su funcionamiento de consultas, lo realizamos en fastapi con render.
 
 ## Transformaciones de datos
-El proceso completo de **ETL** se realizo en el archivo **ETL.ipynb**, la informacion procesada se guardo en la carpeta **processed_data**.
-Se realizaron las siguientes transformaciones de datos segun se indica en 0-Consignas.md : 
+El proceso completo de **ETL** se realizo en el archivo **ETL.ipynb**,  .
+Se realizaron las siguientes transformaciones de datos : 
 
 + Generar campo **`id`**: Cada id se compondrá de la primera letra del nombre de la plataforma, seguido del show_id ya presente en los datasets (ejemplo para títulos de Amazon = **`as123`**)
 
@@ -29,8 +29,9 @@ Se realizaron las siguientes transformaciones de datos segun se indica en 0-Cons
 + El campo ***duration*** debe convertirse en dos campos: **`duration_int`** y **`duration_type`**. El primero será un integer y el segundo un string indicando la unidad de medición de duración: min (minutos) o season (temporadas)
 
 ## Desarrollo de la API:  
+https://pimlops-01.onrender.com/docs
  
-Se utilizo el framework FastAPI para disponibilizar los datos de la empresa. Se han definido las siguientes consultas:  
+Se utilizo FastAPI para disponibilizar los datos de la empresa. Se han definido las siguientes consultas:  
 
 + Título con mayor duración con filtros opcionales de AÑO, PLATAFORMA Y TIPO DE DURACIÓN. (función get_max_duration(year, platform, duration_type)).  
 + Cantidad de títulos por plataforma con un puntaje mayor a XX en determinado año (la función get_score_count(platform, scored, year))
